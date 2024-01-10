@@ -15,7 +15,7 @@ screen.tracer(0)
 ui = UI()
 ui.header(game_on=False)
 
-score = Scoreboard(lives=1)
+score = Scoreboard(lives=5)
 bricks = Bricks()
 bricks.create_bricks()
 paddle = Paddle()
