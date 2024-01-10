@@ -5,8 +5,14 @@ Bricks_Breakout is a Breakout clone in which the player must smash a wall of bri
 
 ## Game_Play
 
-Control Keys:
-.Move paddle right =  right arrow
-.Move paddle left =  left arrow
-.Pause game = space
-.restart game = y 
+### Control Keys:
+- Move paddle right :  "Right arrow"
+- Move paddle left =  "Left arrow"
+- Pause game = "Space"
+- restart game = "y"
+
+### Features
+
+The brick has a ‘quantity’ property, which is its weight, i.e., the number of times it needs to be hit by the ball before it disappears. This number is randomly given to a brick.
+
+Differents levels are in improvement to had more 'weight' to brick each level or more row or both.
